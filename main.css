@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#navbar-left {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-right {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+#navlinks {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#navlinks:hover {
+    text-decoration: underline;
+}
+
+#sign-up {
+    background-color: rgb(79, 79, 245);
+    color: cornsilk;
+    padding: 5px 7px 5px 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: -2px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+input {
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+    font-size: 18px;
+}
+
+input:hover {
+    box-shadow: 1px 1px 10px 1px rgb(199, 199, 199);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#google-search, #feeling-lucky {
+    font-size: 16px;
+    margin: 25px 10px 0 10px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+
+}
+#footer-right {
+    margin-right: 30px;
+}
+#footlinks {
+    color:  rgb(107, 110, 107);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#footlinks:hover {
+    text-decoration: underline;
+}
